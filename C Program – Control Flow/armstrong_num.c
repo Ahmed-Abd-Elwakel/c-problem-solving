@@ -15,7 +15,7 @@ int main()
         Number = Number / 10; // Divide the number by 10
         count++; // Increment the count for each division
     }
-
+    //Working on  it 
     if(pow())
 
     return 0;
