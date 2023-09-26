@@ -1,8 +1,7 @@
 //C Program to Find Largest Number Among Three Numbers
 #include <stdio.h>
 
-void LargestNumber(int x, int y, int z);
-
+void LargestNumber_V1(int x, int y, int z);
 unsigned int Num_1, Num_2, Num_3;
 
 int main() {
@@ -14,7 +13,7 @@ int main() {
 	return 0;
 }
 
-void LargestNumber(int x, int y, int z) {
+void LargestNumber_V1(int x, int y, int z) {
 	if (x > y) {
 		if (x > z) {
 			printf("%d is the Largest Number\n", x);
