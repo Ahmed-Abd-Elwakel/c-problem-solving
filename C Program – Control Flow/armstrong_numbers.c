@@ -2,12 +2,14 @@
 // numbers between 1 to 1000
 #include <stdio.h>
 #include <math.h>
+#define START 1
+#define END 1000
 
 unsigned int i;
 
 int main()
 {
-for(i=1 ; i<=1000 ; i++){
+for(i=START ; i<=END ; i++){
     unsigned int Number = i ;
     unsigned int Temp = Number  ;
     unsigned int P = 0,count = 0;
